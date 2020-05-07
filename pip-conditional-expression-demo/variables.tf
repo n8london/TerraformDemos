@@ -10,7 +10,7 @@ variable "location" {
 
 variable "environment" {
   type    = string
-  default = "dev"
+  default = "demo"
 }
 
 variable "public_ip" {
