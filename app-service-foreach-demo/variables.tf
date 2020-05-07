@@ -1,6 +1,6 @@
 variable "resourcegroup" {
   type    = string
-  default = "terraform-demos-"
+  default = "terraform-"
 }
 variable "location" {
   type    = string
@@ -25,7 +25,7 @@ variable "webapps" {
   type        = map
   default = {
     web1 = "fe-web-1"
-    #web2 = "be-web-2"
-    #web3 = "demo-web-3"
+    web2 = "be-web-2"
+    web3 = "demo-web-3"
   }
 }
