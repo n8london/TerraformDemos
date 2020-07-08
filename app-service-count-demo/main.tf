@@ -1,7 +1,3 @@
-provider "azurerm" {
-  version = "=1.28.0"
-}
-
 resource "random_string" "unique" {
   length  = 5
   special = false
