@@ -51,3 +51,8 @@ variable "vm_admin_username" {
 variable "vm_admin_password" {
   description = "The admin password to be used on the VMSS that will be deployed. The password must meet the complexity requirements of Azure"
 }
+variable "public_ip" {
+  type    = string
+  description = "Enable a public IP address on the VM true or false"
+
+}
