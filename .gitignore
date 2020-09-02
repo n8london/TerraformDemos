@@ -6,7 +6,8 @@
 *.tfstate.*
 
 # tfvars files
-terraform.tfvars
+#including tfvars for demo files
+#terraform.tfvars
 terraform.tfvars.json
 *.auto.tfvars
 *.auto.tfvars.json
